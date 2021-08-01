@@ -9,10 +9,7 @@ namespace PrismMain.Views
         {
             InitializeComponent();
         }
-        private void PresetTimePicker_SelectedTimeChanged(object sender, RoutedPropertyChangedEventArgs<DateTime?> e)
-        {
-            throw new NotImplementedException();
-        }
+        
 
     }
 }

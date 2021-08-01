@@ -21,5 +21,8 @@
         ui:ThemeManager.RequestedTheme="Dark"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:fa5="http://schemas.fontawesome.com/icons/">
-    <Grid></Grid>
+    <Grid HorizontalAlignment="Center"
+          VerticalAlignment="Center">
+        <ContentControl prism:RegionManager.RegionName="MainRegion" />
+    </Grid>
 </Window>
